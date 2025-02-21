@@ -1,3 +1,4 @@
+import 'package:enhanzer/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -13,21 +14,21 @@ class SocialBar extends StatelessWidget {
           onPressed: () {},
           icon: FaIcon(
             FontAwesomeIcons.google,
-            color: Colors.blueAccent,
+            color:blueAccent,
           ),
         ),
         IconButton(
           onPressed: () {},
           icon: FaIcon(
             FontAwesomeIcons.facebook,
-            color: Colors.blueAccent,
+            color: blueAccent,
           ),
         ),
         IconButton(
           onPressed: () {},
           icon: FaIcon(
             FontAwesomeIcons.twitter,
-            color: Colors.blueAccent,
+            color:blueAccent,
           ),
         ),
       ],

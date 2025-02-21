@@ -1,3 +1,4 @@
+import 'package:enhanzer/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class MyDontHave extends StatelessWidget {
@@ -22,7 +23,7 @@ class MyDontHave extends StatelessWidget {
             child: Text(
               "Sign Up",
               style: TextStyle(
-                color: const Color.fromARGB(255, 62, 135, 195),
+                color: mixed,
                 fontWeight: FontWeight.bold,
               ),
             ),

@@ -1,3 +1,4 @@
+import 'package:enhanzer/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class MyTextField extends StatelessWidget {
@@ -26,41 +27,41 @@ class MyTextField extends StatelessWidget {
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(10),
           borderSide: BorderSide(
-            color: Colors.grey,
+            color: grey,
             width: 1,
           ),
         ),
         labelText: labelText,
         labelStyle: TextStyle(
-          color: Colors.grey,
+          color: grey,
           fontSize: 15,
         ),
         filled: true,
         fillColor: Colors.grey[200],
         prefixIcon: Icon(
           icon,
-          color: Colors.grey,
+          color:grey,
         ),
         suffixIcon: Icon(
           suffixIcon,
-          color: Colors.grey,
+          color: grey,
         ),
         hintStyle: TextStyle(
-          color: Colors.grey,
+          color: grey,
           fontSize: 14,
         ),
         hintText: hintText,
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(10),
           borderSide: BorderSide(
-            color: Colors.grey,
+            color: grey,
             width: 1,
           ),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(10),
           borderSide: BorderSide(
-            color: Colors.blue,
+            color:blue,
             width: 2,
           ),
         ),
