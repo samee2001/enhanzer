@@ -1,3 +1,4 @@
+import 'package:enhanzer/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
@@ -18,7 +19,7 @@ class MyButton extends StatelessWidget {
       height: MediaQuery.of(context).size.height * 0.07,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: const Color.fromARGB(255, 75, 164, 236),
+        color: mixed2,
       ),
       child: TextButton(
         onPressed: isLoading ? null : login,
@@ -28,7 +29,7 @@ class MyButton extends StatelessWidget {
                 child: Text(
                   text,
                   style: TextStyle(
-                    color: Colors.white,
+                    color: white,
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),

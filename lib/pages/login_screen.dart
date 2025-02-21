@@ -4,6 +4,7 @@ import 'package:enhanzer/components/my_text_field.dart';
 import 'package:enhanzer/components/social_bar.dart';
 import 'package:enhanzer/pages/Home_page.dart';
 import 'package:enhanzer/pages/signup_page.dart';
+import 'package:enhanzer/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:enhanzer/backend/api_service.dart';
 import 'package:enhanzer/backend/database.dart';
@@ -64,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: white,
         title: Text("Login Page",
             style: TextStyle(
               color: Colors.blue,
@@ -76,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
           IconButton(icon: Icon(Icons.notifications), onPressed: () {}),
         ],
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: white,
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.only(top: 30.0, right: 20, left: 20),
